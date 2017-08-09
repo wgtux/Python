@@ -7,5 +7,5 @@ Em que posição ela aparece a ultima vez
 
 f = str(input('Digite uma Frase: ')).strip().lower()
 print('A letra "A" aparece {} vezes'.format(f.count('a')))
-print('A Primeira letra "A" aparece na posição {}'.format(f.find('a')))
-print('A Ultima letra "A" aparece na posição {}')
+print('A Primeira letra "A" aparece na posição {}'.format(f.find('a')+1))
+print('A Ultima letra "A" aparece na posição {}'.format(f.rfind('a')+1))
