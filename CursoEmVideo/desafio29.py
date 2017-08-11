@@ -3,7 +3,7 @@ Leia velocidade de um carro e se ele ultrapassar 80km/h, mostre uma mensagem diz
 A multa vai custar R$7,00 por mk acima do limite
 '''
 
-v = int(input('Digite a Velocidade atual do Carro: '))
+v = float(input('Digite a Velocidade atual do Carro: '))
 if v >80:
     multa = (v-80)*7
     print('Você ultrapassou a velocidade permitida de 80km/h')
